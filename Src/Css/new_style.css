@@ -1,0 +1,49 @@
+.d-none{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-direction-row{
+    flex-direction: row;
+}
+
+.f-direction-col{
+    flex-direction: column;
+}
+
+.f-justify-center{
+    justify-content: center;
+}
+
+.f-justify-space-between{
+    justify-content: space-between;
+}
+
+.f-justify-right{
+    justify-content: right;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.gap-8{
+    gap: 8%;
+}
+
+.gap-10{
+    gap: 10%;
+}
+
+.pd-b-20{
+    padding-bottom: 20px;
+}
+
+.radio-group {
+    gap: 2%;
+}
+
+.my-select { float: left; position: relative; padding: 4px 8px; border: 1px solid #ccc; cursor: pointer; background: #fff; height: auto;}
