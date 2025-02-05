@@ -1,10 +1,10 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'localhost'); //tcc-project-db2.cb66soim6w7q.us-east-1.rds.amazonaws.com
+define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'admin123'); //admin123
-define('DB_NAME', 'tcc_clothes_shop');
+define('DB_PASSWORD', ''); //admin123
+define('DB_NAME', 'UniqueCloudDB');
 
 /* Attempt to connect to MySQL database */
 $con= mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
